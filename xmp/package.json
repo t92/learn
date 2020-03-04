@@ -5,18 +5,19 @@
     "scripts": {
         "run": "gulp"
     },
-    "author": "sylar",
+    "author": "x",
     "dependencies": {},
     "devDependencies": {
-        "babel-core": "^6.26.3",
+        "@babel/core": "^7.8.6",
+        "@babel/preset-env": "^7.8.6",
         "babel-eslint": "^8.2.3",
         "babel-preset-latest": "^6.24.1",
         "del": "^2.2.2",
         "gulp": "^3.9.1",
         "gulp-autoprefixer": "^5.0.0",
-        "gulp-babel": "^7.0.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.2.0",
         "gulp-jsonminify2": "^1.0.2",
-        "gulp-minify-css": "^1.2.4",
         "gulp-px2rpx": "^0.2.2",
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
