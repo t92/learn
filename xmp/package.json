@@ -1,0 +1,32 @@
+{
+    "name": "gulp-start",
+    "version": "1.0.0",
+    "description": "gulp for wx mini program",
+    "scripts": {
+        "run": "gulp"
+    },
+    "author": "sylar",
+    "dependencies": {},
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-eslint": "^8.2.3",
+        "babel-preset-latest": "^6.24.1",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^5.0.0",
+        "gulp-babel": "^7.0.1",
+        "gulp-jsonminify2": "^1.0.2",
+        "gulp-minify-css": "^1.2.4",
+        "gulp-px2rpx": "^0.2.2",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "^3.0.0",
+        "gulp.spritesmith": "^6.9.0",
+        "run-sequence": "^2.2.1"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}

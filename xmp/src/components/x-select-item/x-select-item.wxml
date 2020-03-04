@@ -1,0 +1,4 @@
+<label class="item">
+    <view class="label">{{ item.label }}</view>
+    <view class="desc">{{ item.desc }}</view>
+</label>

@@ -1,0 +1,8 @@
+project.config.json
+dist
+node_modules
+src/**/*.wxss
+!src/app.wxss
+.idea
+src/config.js
+

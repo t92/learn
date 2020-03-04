@@ -1,0 +1,6 @@
+
+<view class="wrapper">
+    <x-select datalist="{{list}}" defaultValue="0" bind:listenValue="getValue">
+        <text>选中: {{ pickerValue }}</text>
+    </x-select>
+</view>

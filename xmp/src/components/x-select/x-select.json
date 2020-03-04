@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "componentGenerics": {
+    "select-item": {
+      "default": "../x-select-item/x-select-item" 
+    }
+  }
+}

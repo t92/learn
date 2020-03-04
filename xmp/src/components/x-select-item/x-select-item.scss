@@ -1,0 +1,17 @@
+.item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 20rpx;
+
+    .label{
+        margin-right: 20rpx;
+        font-size: 32rpx;
+    }
+
+    .desc{
+        font-size: 28rpx;
+        color: #ccc;
+    }
+}

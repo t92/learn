@@ -1,0 +1,27 @@
+<view>
+    <view class="x-picker" bind:tap="showOptions">
+        <slot></slot>
+    </view>
+
+    <view class="x-mask" wx:if="{{ dialogVisible }}" bind:tap="close">
+        <view class="x-select-dialog {{ animationShow ? 'animation' : '' }}">
+            <view class="x-select-header">
+                {{ title }}
+            </view>
+            <view class="x-select-body">
+                <view
+                    catchtap="tapItem"
+                    data-index="{{index}}"
+                    class="x-select-option {{ item.checked ? 'x-selected-option' : '' }}"
+                    wx:for="{{list}}"
+                    wx:key="index">
+                    
+                    <select-item item="{{item}}"></select-item>
+                </view>
+            </view>
+            <view class="x-select-footer">
+            
+            </view>
+        </view>
+    </view>
+</view>
