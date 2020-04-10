@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="id1">1111</div>
+    <script>
+        document.querySelector("#id1").innerHTML = '22222'
+    </script>
+
+
+    <script src="linkedList.js"></script>
+    <script>
+        let list = new LinkedList()
+
+        list.append('bbb')
+
+        list.insert(0,'aaa')
+        list.insert(2,'ddd')
+        list.insert(2,'ccc')
+
+        console.log('indexOf', list.indexOf('ccc'))
+
+        console.log('get', list.get(0))
+
+        list.update(0, 'aca')
+
+        console.log('remove',list.remove('bbb'))
+
+        console.log('removeAr', list.removeAt(0))
+
+
+
+        console.log(list.toString())
+    </script>
+</body>
+</html>
